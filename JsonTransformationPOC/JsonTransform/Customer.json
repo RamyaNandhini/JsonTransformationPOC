@@ -1,0 +1,15 @@
+{
+  "displayName": "#valueof($.DisplayName)",
+  "email": "#valueof($.PrimaryEmailAddr.Address)",
+  "phoneNumber": "#valueof($.PrimaryPhone.FreeFormNumber)",
+  "taxLiable": "#valueof($.Taxable)",
+  "city": "#valueof($.BillAddr.City)",
+  "addressLine1": "#valueof($.BillAddr.Line1)",
+  "postalCode": "#valueof($.BillAddr.PostalCode)",
+  "state": "#valueof($.BillAddr.CountrySubDivisionCode)",
+  "qboReferenceId": "#valueof($.Id)",
+  "lastModifiedDate Time": "#valueof($.MetaData.LastUpdatedTime)",
+  "type": "Company",
+  "currencyId": "00000000-0000-0000-0000-000000000000",
+  "blocked": ""
+}

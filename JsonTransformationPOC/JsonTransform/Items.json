@@ -1,0 +1,10 @@
+{
+  "number": "#valueof($.Id)",
+  "displayName": "#valueof($.Name)",
+  "type": "#valueof($.Type)",
+  "blocked": "#ifcondition(#valueof($.Active),true,false,true)",
+  "gtin": "",
+  "unitPrice": "#valueof($.UnitPrice)",
+  "unitCost": "#valueof($.PurchaseCost)",
+  "priceIncludesTax": "#valueof($.Taxable)"
+}

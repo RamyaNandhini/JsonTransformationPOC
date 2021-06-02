@@ -1,0 +1,5 @@
+{
+  "id": "#valueof($.Id)",
+  "code": "#valueof($.Name)",
+  "displayName": "#valueof($.FullyQualifiedName)"
+}

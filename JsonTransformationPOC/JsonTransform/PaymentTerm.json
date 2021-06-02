@@ -1,0 +1,9 @@
+{
+  "displayName": "#valueof($.Name)",
+  "dueDateCalculation": "#concat(#valueof($.DueDays),D)",
+  "discountDateCalculation": "#concat(#valueof($.DiscountDays),D)",
+  "discountPercent": "#valueof($.DiscountPercent)",
+  "calculateDiscountOnCreditMemos": false,
+  "code": "#valueof($.Name)",
+  "qboReferenceId": "#valueof($.Id)"
+}

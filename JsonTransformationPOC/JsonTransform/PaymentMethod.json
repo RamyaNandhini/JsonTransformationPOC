@@ -1,0 +1,5 @@
+{
+  "qboReferenceId": "#valueof($.Id)",
+  "Code": "#valueof($.Name)",
+  "displayName": "#valueof($.Name)"
+}

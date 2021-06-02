@@ -1,0 +1,8 @@
+{
+  "number": "#valueof($.Id)",
+  "displayName": "#valueof($.Name)",
+  "category": "#valueof($.Classification)",
+  "subCategory": "#valueof($.AccountType)",
+  "blocked": "False",
+  "qboReferneceId": "#valueof($.id)"
+}
